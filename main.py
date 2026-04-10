@@ -16,7 +16,10 @@ def get_range(mapping: dict) -> set:
     """Return the range — the set of outputs actually mapped to."""
     # === TODO ===
     # Your code here
-    pass
+    range : set = set()
+    for y in mapping.values():
+        range.add(y)
+    return range
     # === END TODO ===
 
 
