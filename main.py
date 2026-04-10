@@ -48,7 +48,7 @@ def is_surjective(mapping: dict, target: set) -> bool:
     """Return True if f is onto (range == target)."""
     # === TODO ===
     # Your code here
-    pass
+    return get_range(mapping) == target
     # === END TODO ===
 
 
